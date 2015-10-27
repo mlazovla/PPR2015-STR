@@ -1,6 +1,22 @@
 ﻿<Properties StartupItem="PPR2015-STR/PPR2015-STR.cproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PPR2015-STR/unionfind.cpp">
+    <Files>
+      <File FileName="PPR2015-STR/main.cpp" Line="1" Column="1" />
+      <File FileName="PPR2015-STR/graph.cpp" Line="20" Column="23" />
+      <File FileName="PPR2015-STR/unionfind.h" Line="1" Column="1" />
+      <File FileName="PPR2015-STR/unionfind.cpp" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="PPR2015-STR" expanded="True">
+            <Node name="unionfind.cpp" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

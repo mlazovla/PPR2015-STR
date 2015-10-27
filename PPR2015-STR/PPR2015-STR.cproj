@@ -5,10 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8BABEE71-2A00-4FFC-949F-FEF1F9DD19D4}</ProjectGuid>
     <Compiler>
-      <Compiler ctype="GccCompiler" xmlns="" />
+      <Compiler ctype="GppCompiler" />
     </Compiler>
-    <Language>C</Language>
+    <Language>CPP</Language>
     <Target>Bin</Target>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -18,6 +20,7 @@
     <CompileTarget>Bin</CompileTarget>
     <DefineSymbols>DEBUG MONODEVELOP</DefineSymbols>
     <SourceDirectory>.</SourceDirectory>
+    <Commandlineparameters>../../vetsi.txt</Commandlineparameters>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release</OutputPath>
@@ -29,6 +32,16 @@
     <SourceDirectory>.</SourceDirectory>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="main.c" />
+    <Compile Include="unionfind.cpp" />
+    <Compile Include="solution_checker.cpp" />
+    <Compile Include="main.cpp" />
+    <Compile Include="graph.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="unionfind.h" />
+    <None Include="vetsi.txt" />
+    <None Include="solution_checker.h" />
+    <None Include="hodne.txt" />
+    <None Include="graph.h" />
   </ItemGroup>
 </Project>
